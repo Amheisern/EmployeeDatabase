@@ -35,7 +35,7 @@ namespace EmployeeDatabase
                 return 0;
             }
             // var intValue = int.Parse(userInput);
-            return intValue;
+
         }
 
         static void Main(string[] args)
