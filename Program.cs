@@ -1,6 +1,15 @@
 ﻿using System;
 namespace EmployeeDatabase
 {
+    class Employee
+    {
+        public string Name;
+        public int Department;
+        public int Salary;
+        public int MonthlySalary;
+
+    }
+
     class Program
     {
         static void DisplayGreeting()
