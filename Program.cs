@@ -3,11 +3,11 @@ namespace EmployeeDatabase
 {
     class Employee
     {
-        public string Name;
-        public int Department;
-        public int Salary;
-        public int MonthlySalary;
-
+        public string Name { get; set; }
+        public int Department { get; set; }
+        public int Salary { get; set; }
+        public int MonthlySalary { get; set; }
+        public bool IsPartTime { get; set; }
     }
 
     class Program
